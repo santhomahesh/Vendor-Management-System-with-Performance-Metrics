@@ -1,9 +1,11 @@
 Vendor Management System with performence metrices in Django
+
 A Vendor Management System using Django and Django REST Framework. This
 system will handle vendor profiles, track purchase orders, and calculate vendor performance
 metrics 
 
 1.Features
+
   Vendor Profile Management:
     Create, retrieve, update, and delete vendor profiles.
     Calculate and display vendor performance metrics.
@@ -17,6 +19,7 @@ metrics
     Historical performance tracking for trend analysis.
 
 2.Technical Requirements
+
   Django (latest stable version)
   Django REST Framework (latest stable version)
   Token-based authentication
@@ -24,9 +27,10 @@ metrics
   Django ORM for database interactions
 
 3.Installation
+
     Create and activate a virtual environment:
-     python -m venv venv
-     .\venv\Scripts\activate
+      python -m venv venv
+      .\venv\Scripts\activate
 
     Install dependencies:
       pip install -r requirements.txt
@@ -39,14 +43,12 @@ metrics
       python manage.py runserver
 
 4.API
+
     http://127.0.0.1:8000/admin/
     http://127.0.0.1:8000/api/vendors/ 
-    http://127.0.0.1:8000/api/vendors/<int:pk>/ 
     http://127.0.0.1:8000/api/purchase_orders/
-    http://127.0.0.1:8000/api/purchase_orders/<int:pk>/ 
-    http://127.0.0.1:8000/api/vendors/<int:pk>/performance/ 
-    http://127.0.0.1:8000/api/purchase_orders/<int:pk>/acknowledge/ 
-
+    
+    
 5.API Documentation
 
   sample JSON for Create Vendor
